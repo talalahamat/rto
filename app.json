@@ -25,6 +25,11 @@
     "plugins": [
       "expo-font",
       "expo-local-authentication"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fe12bddd-3d1a-42dd-9f14-c789e8b23305"
+      }
+    }
   }
 }
