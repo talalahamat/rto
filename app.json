@@ -4,7 +4,6 @@
     "slug": "rto",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "lk.andhholdings.renttoown"
@@ -13,10 +12,6 @@
       "backgroundColor": "#0A0A0A",
       "package": "lk.andhholdings.renttoown"
     },
-    "plugins": [
-      "expo-font",
-      "expo-local-authentication"
-    ],
     "extra": {
       "eas": {
         "projectId": "fe12bddd-3d1a-42dd-9f14-c789e8b23305"
