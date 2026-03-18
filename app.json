@@ -13,46 +13,18 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "lk.andhholdings.renttoown",
-      "buildNumber": "1",
-      "infoPlist": {
-        "NSFaceIDUsageDescription": "Use Face ID to securely log in to your account",
-        "NSCameraUsageDescription": "Upload documents and property photos",
-        "NSPhotoLibraryUsageDescription": "Select photos for document uploads"
-      }
+      "bundleIdentifier": "lk.andhholdings.renttoown"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0A0A0A"
       },
-      "package": "lk.andhholdings.renttoown",
-      "versionCode": 1,
-      "permissions": [
-        "USE_BIOMETRIC",
-        "USE_FINGERPRINT",
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "RECEIVE_BOOT_COMPLETED",
-        "VIBRATE"
-      ]
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "package": "lk.andhholdings.renttoown"
     },
     "plugins": [
       "expo-font",
-      "expo-local-authentication",
-      ["expo-notifications", {
-        "icon": "./assets/notification-icon.png",
-        "color": "#0A0A0A"
-      }]
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "rent-to-own-anh"
-      }
-    }
+      "expo-local-authentication"
+    ]
   }
 }
