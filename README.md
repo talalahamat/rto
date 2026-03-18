@@ -1,5 +1,6 @@
 # Rent To Own — A&H Holdings Mobile App
 
+
 ## Overview
 React Native (Expo) app for the A&H Holdings Rent To Own platform. Three portals:
 - **Buyer Portal** — 17 screens for homeowners tracking their journey
